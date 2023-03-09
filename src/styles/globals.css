@@ -4,6 +4,9 @@
   --font-color: #0b1f2f;
   --link-color: #486287;
   --button-color: #b0c2da;
+  --button-hover-color: #9eb1cb;
+
+  --font: "PT Serif", serif;
 }
 
 * {
@@ -21,13 +24,7 @@ body {
 
 body {
   color: var(--font-color);
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
-
+  background-color: #ffffff;
   font-family: var(--font);
 }
 
